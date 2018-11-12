@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.color{
+    background: rgb(207, 33, 33);
+    border: 5px ridge black;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+img{
+    width: 21%;
+    filter:grayscale(1);
+}
