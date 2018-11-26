@@ -1,0 +1,18 @@
+<header class="header">
+  <nav>
+    <ul>
+      <li [routerLink]="['/']">Home</li>
+      <li [routerLink]="['/componente3']">Iniciar Sesion</li>
+      <li>Servicios</li>
+      <li>Contacto</li>
+    </ul>
+  </nav>
+</header>
+<router-outlet></router-outlet>
+<!-- <form #formulario="ngForm">
+  <label>Usuario:</label><input type="text" required [(ngModel)]="id" name="id" minlength="3" #usuario="ngModel">
+  <label>Contraseña:</label><input type="text" required [(ngModel)]="password" name="password" maxlength="8" #contra="ngModel">
+  <label>Correo:</label><input type="email" required email>
+  <button [disabled]="!formulario.valid">Aceptar</button>
+</form>
+ -->
